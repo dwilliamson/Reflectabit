@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Reflection">
+      <UniqueIdentifier>{1c615b02-adb9-4d75-a352-e842d2a67712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reflection\Containers">
+      <UniqueIdentifier>{6093fb7a-20a0-4a09-a4a9-c627525c5485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialisation">
+      <UniqueIdentifier>{879301a8-487a-4a4a-9bc8-fc5765169874}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Field.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeDatabase.cpp">
+      <Filter>Reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialiseBinary.cpp">
+      <Filter>Serialisation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\rflb\Field.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\Type.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\TypeDatabase.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\Utils.h">
+      <Filter>Reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\ArrayContainer.h">
+      <Filter>Reflection\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\Container.h">
+      <Filter>Reflection\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\MapContainer.h">
+      <Filter>Reflection\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\VectorContainer.h">
+      <Filter>Reflection\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\rflb\SerialiseBinary.h">
+      <Filter>Serialisation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

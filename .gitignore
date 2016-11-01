@@ -1,0 +1,14 @@
+*.tlog
+*.obj
+*.manifest
+*.exe
+*.ilk
+*.idb
+*.pdb
+*.cache
+*.res
+*.log
+*.lastbuildstate
+*.rc
+*.user
+*.lib
